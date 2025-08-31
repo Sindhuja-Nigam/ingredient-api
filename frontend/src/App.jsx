@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import './AppStyles.css';
+const API_BASE = (import.meta.env.VITE_API_BASE || "").replace(/\/+$/, "");
+
 
 const App = () => {
   const [userIngredients, setUserIngredients] = useState([]);
@@ -44,7 +46,7 @@ const App = () => {
     formData.append("file", file);
 
     try {
-    const response = await fetch("http://localhost:5000/api/recognize-ingredients", {
+     const response = await fetch(`${API_BASE}/api/recognize-ingredients`, {
         method: "POST",
         body: formData,
       });
@@ -78,7 +80,7 @@ const App = () => {
         params.append('diet', userDietaryPreference);
       }
 
-      const response = await fetch(`http://localhost:5000/api/recipes?${params.toString()}`);
+      const response = await fetch(`${API_BASE}/api/recipes?${params.toString()}`);
       const data = await response.json();
       console.log("Fetched recipes from backend:", data);
 
@@ -95,7 +97,7 @@ const App = () => {
 
   const saveRecipe = async (recipeId) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/recipes/${recipeId}/save`, {
+       const response = await fetch(`${API_BASE}/api/recipes/${recipeId}/save`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -134,7 +136,7 @@ const App = () => {
 
   const rateRecipe = async (recipeId, rating) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/recipes/${recipeId}/rate`, {
+      const response = await fetch(`${API_BASE}/api/recipes/${recipeId}/rate`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -174,7 +176,7 @@ const App = () => {
     // Load favorites from backend
     const loadFavorites = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/saved-recipes');
+         const response = await fetch(`${API_BASE}/api/saved-recipes`);
         if (response.ok) {
           const data = await response.json();
           setFavorites(data.recipes);
