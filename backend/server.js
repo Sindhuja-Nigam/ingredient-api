@@ -40,6 +40,9 @@ function writeJSONFile(filePath, data) {
 }
 
 // ===== ROUTES =====
+app.get("/", (req, res) => {
+  res.send("✅ Smart Recipe Backend is running. Use /api/recipes etc.");
+});
 
 // Fetch recipes with filters
 app.get("/api/recipes", (req, res) => {
