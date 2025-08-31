@@ -1,0 +1,100 @@
+{
+  "favorites": [
+    {
+      "id": "25",
+      "title": "Chocolate Mousse",
+      "cuisine": "Dessert",
+      "description": "Rich and creamy chocolate dessert",
+      "difficulty": "easy",
+      "time": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "dark chocolate",
+          "amount": "150 g"
+        },
+        {
+          "name": "cream",
+          "amount": "200 ml"
+        },
+        {
+          "name": "egg",
+          "amount": "2 pc"
+        },
+        {
+          "name": "sugar",
+          "amount": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        "Melt chocolate and cool slightly.",
+        "Whip cream to soft peaks.",
+        "Fold in whipped egg whites and chocolate.",
+        "Chill until set."
+      ],
+      "dietTags": [
+        "vegetarian",
+        "gluten_free"
+      ],
+      "nutrition": {
+        "calories": 320,
+        "protein": 6,
+        "carbs": 20,
+        "fat": 24
+      },
+      "image": "Chocolate+mousse+cake+with+red+fruits1.webp",
+      "rating": 4.5,
+      "saved": true
+    },
+    {
+      "id": "1",
+      "title": "Chickpea Curry",
+      "cuisine": "Indian",
+      "description": "A flavorful Indian curry made with chickpeas and coconut milk",
+      "difficulty": "easy",
+      "time": 30,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "chickpeas",
+          "amount": "400 g"
+        },
+        {
+          "name": "onion",
+          "amount": "1 pc"
+        },
+        {
+          "name": "garlic",
+          "amount": "3 cloves"
+        },
+        {
+          "name": "coconut milk",
+          "amount": "200 ml"
+        },
+        {
+          "name": "curry powder",
+          "amount": "2 tsp"
+        }
+      ],
+      "instructions": [
+        "Heat oil in a pan.",
+        "Add onions and sauté until golden.",
+        "Add garlic and curry powder.",
+        "Add chickpeas and coconut milk, simmer for 15 mins."
+      ],
+      "dietTags": [
+        "vegetarian",
+        "gluten_free"
+      ],
+      "nutrition": {
+        "calories": 420,
+        "protein": 16,
+        "carbs": 55,
+        "fat": 14
+      },
+      "image": "chicken-curry.webp",
+      "rating": 4.5,
+      "saved": true
+    }
+  ]
+}

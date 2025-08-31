@@ -1,0 +1,79 @@
+/* AppStyles.css - Additional styles for Smart Recipe Generator */
+
+/* Base styles that complement App.css */
+body, #root {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header specific styles */
+header {
+  padding: 0 1rem;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo span {
+  display: flex;
+  align-items: center;
+  line-height: 40px;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+  border-radius: 0.25rem;
+}
+
+/* Main navigation */
+.main-nav {
+  gap: 2rem;
+}
+
+.main-nav a {
+  color: var(--primary-700);
+  font-weight: 600;
+  padding:10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: var(--primary-400);
+}
+
+/* Main content */
+main {
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Section styles */
+section {
+  padding: 1rem 0;
+}
+
+/* Form elements */
+input[type="file"] {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Ingredient tags specific styles */
+.ingredient-tag button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-nav {
+    display: none;
+  }
+}

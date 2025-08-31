@@ -1,0 +1,683 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Chickpea Curry",
+      "cuisine": "Indian",
+      "description": "A flavorful Indian curry made with chickpeas and coconut milk",
+      "difficulty": "easy",
+      "time": 30,
+      "servings": 2,
+      "ingredients": [
+        { "name": "chickpeas", "amount": "400 g" },
+        { "name": "onion", "amount": "1 pc" },
+        { "name": "garlic", "amount": "3 cloves" },
+        { "name": "coconut milk", "amount": "200 ml" },
+        { "name": "curry powder", "amount": "2 tsp" }
+      ],
+      "instructions": [
+        "Heat oil in a pan.",
+        "Add onions and sauté until golden.",
+        "Add garlic and curry powder.",
+        "Add chickpeas and coconut milk, simmer for 15 mins."
+      ],
+      "dietTags": ["vegetarian", "gluten_free"],
+      "nutrition": { "calories": 420, "protein": 16, "carbs": 55, "fat": 14 },
+      "image": "chicken-curry.webp",
+      "rating": 4.5,
+      "saved": false
+    },
+    {
+      "id": "2",
+      "title": "Paneer Butter Masala",
+      "cuisine": "Indian",
+      "description": "Creamy Indian curry with paneer in a rich tomato and butter sauce",
+      "difficulty": "medium",
+      "time": 40,
+      "servings": 3,
+      "ingredients": [
+        { "name": "paneer", "amount": "250 g" },
+        { "name": "tomato puree", "amount": "200 ml" },
+        { "name": "butter", "amount": "2 tbsp" },
+        { "name": "onion", "amount": "1 pc" },
+        { "name": "cream", "amount": "50 ml" }
+      ],
+      "instructions": [
+        "Heat butter and sauté onion.",
+        "Add tomato puree and spices.",
+        "Add paneer cubes and simmer.",
+        "Finish with cream and garnish."
+      ],
+      "dietTags": ["vegetarian", "gluten_free"],
+      "nutrition": { "calories": 480, "protein": 20, "carbs": 30, "fat": 28 },
+      "image": "panner butter masala.webp",
+      "rating": 4.7,
+      "saved": false
+    },
+    {
+      "id": "3",
+      "title": "Masoor Dal Tadka",
+      "cuisine": "Indian",
+      "description": "Traditional Indian lentil dish with aromatic tempering",
+      "difficulty": "easy",
+      "time": 25,
+      "servings": 4,
+      "ingredients": [
+        { "name": "red lentils", "amount": "200 g" },
+        { "name": "onion", "amount": "1 pc" },
+        { "name": "garlic", "amount": "4 cloves" },
+        { "name": "tomato", "amount": "1 pc" },
+        { "name": "ghee", "amount": "2 tbsp" }
+      ],
+      "instructions": [
+        "Boil lentils with water until soft.",
+        "Prepare tempering with onion, garlic, tomato, and spices.",
+        "Mix tempering into dal and simmer."
+      ],
+      "dietTags": ["vegetarian", "gluten_free"],
+      "nutrition": { "calories": 220, "protein": 12, "carbs": 35, "fat": 5 },
+      "image": "masoor-dal.webp",
+      "rating": 4.3,
+      "saved": false
+    },
+    {
+      "id": "4",
+      "title": "Chicken Biryani",
+      "cuisine": "Indian",
+      "description": "Aromatic Indian rice dish with spiced chicken and fragrant basmati rice",
+      "difficulty": "hard",
+      "time": 70,
+      "servings": 4,
+      "ingredients": [
+        { "name": "basmati rice", "amount": "250 g" },
+        { "name": "chicken", "amount": "400 g" },
+        { "name": "onion", "amount": "2 pc" },
+        { "name": "yogurt", "amount": "100 g" },
+        { "name": "biryani masala", "amount": "2 tbsp" }
+      ],
+      "instructions": [
+        "Marinate chicken with yogurt and spices.",
+        "Cook rice until 70% done.",
+        "Layer chicken and rice, cook on dum.",
+        "Serve with raita."
+      ],
+      "dietTags": ["gluten_free"],
+      "nutrition": { "calories": 600, "protein": 28, "carbs": 75, "fat": 18 },
+      "image": "chicken-briyani.webp",
+      "rating": 4.8,
+      "saved": false
+    },
+    {
+      "id": "5",
+      "title": "Aloo Paratha",
+      "cuisine": "Indian",
+      "description": "Indian flatbread stuffed with spced potato filling",
+      "difficulty": "medium",
+      "time": 35,
+      "servings": 3,
+      "ingredients": [
+        { "name": "whole wheat flour", "amount": "200 g" },
+        { "name": "potato", "amount": "2 pc" },
+        { "name": "ghee", "amount": "1 tbsp" },
+        { "name": "spices", "amount": "1 tsp" }
+      ],
+      "instructions": [
+        "Boil and mash potatoes with spices.",
+        "Prepare dough with flour and water.",
+        "Stuff dough with potato mix and roll.",
+        "Cook on tawa with ghee."
+      ],
+      "dietTags": ["vegetarian"],
+      "nutrition": { "calories": 320, "protein": 9, "carbs": 55, "fat": 7 },
+      "image": "aalo-paratha.webp",
+      "rating": 4.4,
+      "saved": false
+    },
+    {
+      "id": "6",
+      "title": "Samosa",
+      "cuisine": "Indian",
+      "description": "Crispy fried pastry with spiced potato and pea filling",
+      "difficulty": "medium",
+      "time": 45,
+      "servings": 4,
+      "ingredients": [
+        { "name": "all-purpose flour", "amount": "200 g" },
+        { "name": "potato", "amount": "3 pc" },
+        { "name": "peas", "amount": "50 g" },
+        { "name": "oil", "amount": "500 ml" },
+        { "name": "garam masala", "amount": "1 tsp" }
+      ],
+      "instructions": [
+        "Prepare dough with flour and oil.",
+        "Boil potatoes and peas, mash with spices.",
+        "Fill dough with stuffing and shape cones.",
+        "Deep fry until golden brown."
+      ],
+      "dietTags": ["vegetarian"],
+      "nutrition": { "calories": 300, "protein": 6, "carbs": 40, "fat": 14 },
+      "image": "samosa.webp",
+      "rating": 4.6,
+      "saved": false
+    },
+    {
+      "id": "7",
+      "title": "Rasgulla",
+      "cuisine": "Indian",
+      "description": "Soft and spongy Indian dessert balls in sugar syrup",
+      "difficulty": "medium",
+      "time": 50,
+      "servings": 5,
+      "ingredients": [
+        { "name": "milk", "amount": "1 litre" },
+        { "name": "lemon juice", "amount": "2 tbsp" },
+        { "name": "sugar", "amount": "200 g" },
+        { "name": "water", "amount": "500 ml" }
+      ],
+      "instructions": [
+        "Curdle milk with lemon juice to make chenna.",
+        "Knead chenna and roll into balls.",
+        "Boil sugar syrup and cook rasgullas in it.",
+        "Cool before serving."
+      ],
+      "dietTags": ["vegetarian", "gluten_free"],
+      "nutrition": { "calories": 180, "protein": 5, "carbs": 32, "fat": 4 },
+      "image": "rasgulla.webp",
+      "rating": 4.2,
+      "saved": false
+    },
+    {
+      "id": "8",
+      "title": "Spaghetti Carbonara",
+      "cuisine": "Italian",
+      "description": "Classic Italian pasta with eggs, cheese, and pancetta",
+      "difficulty": "medium",
+      "time": 30,
+      "servings": 2,
+      "ingredients": [
+        { "name": "spaghetti", "amount": "200 g" },
+        { "name": "egg", "amount": "2 pc" },
+        { "name": "parmesan", "amount": "50 g" },
+        { "name": "bacon", "amount": "100 g" },
+        { "name": "black pepper", "amount": "1 tsp" }
+      ],
+      "instructions": [
+        "Boil spaghetti until al dente.",
+        "Fry bacon until crispy.",
+        "Mix eggs and parmesan in a bowl.",
+        "Combine hot pasta with bacon and egg mixture."
+      ],
+      "dietTags": [],
+      "nutrition": { "calories": 520, "protein": 22, "carbs": 60, "fat": 22 },
+      "image": "spaghetti.webp",
+      "rating": 4.5,
+      "saved": false
+    },
+    {
+      "id": "9",
+      "title": "Margherita Pizza",
+      "cuisine": "Italian",
+      "description": "Classic Italian pizza with tomato, mozzarella, and basil",
+      "difficulty": "easy",
+      "time": 20,
+      "servings": 2,
+      "ingredients": [
+        { "name": "pizza dough", "amount": "250 g" },
+        { "name": "tomato sauce", "amount": "100 g" },
+        { "name": "mozzarella", "amount": "150 g" },
+        { "name": "basil", "amount": "5 leaves" }
+      ],
+      "instructions": [
+        "Spread sauce on pizza dough.",
+        "Top with mozzarella and basil.",
+        "Bake in oven at 220°C for 12 mins."
+      ],
+      "dietTags": ["vegetarian"],
+      "nutrition": { "calories": 450, "protein": 18, "carbs": 50, "fat": 16 },
+      "image": "pizza.webp",
+      "rating": 4.7,
+      "saved": false
+    },
+    {
+      "id": "10",
+      "title": "Lasagna",
+      "cuisine": "Italian",
+      "description": "Layered Italian pasta dish with meat sauce and cheese",
+      "difficulty": "hard",
+      "time": 70,
+      "servings": 4,
+      "ingredients": [
+        { "name": "lasagna sheets", "amount": "250 g" },
+        { "name": "ground beef", "amount": "300 g" },
+        { "name": "tomato sauce", "amount": "200 ml" },
+        { "name": "béchamel sauce", "amount": "200 ml" },
+        { "name": "mozzarella", "amount": "100 g" }
+      ],
+      "instructions": [
+        "Cook beef with tomato sauce.",
+        "Layer lasagna sheets, beef, and béchamel.",
+        "Top with mozzarella and bake."
+      ],
+      "dietTags": [],
+      "nutrition": { "calories": 650, "protein": 30, "carbs": 55, "fat": 30 },
+      "image": "lasagna.webp",
+      "rating": 4.6,
+      "saved": false
+    },
+    {
+      "id": "11",
+      "title": "Pasta Alfredo",
+      "cuisine": "Italian",
+      "description": "Creamy pasta with parmesan cheese and butter sauce",
+      "difficulty": "easy",
+      "time": 25,
+      "servings": 2,
+      "ingredients": [
+        { "name": "fettuccine", "amount": "200 g" },
+        { "name": "cream", "amount": "200 ml" },
+        { "name": "parmesan", "amount": "50 g" },
+        { "name": "butter", "amount": "2 tbsp" },
+        { "name": "garlic", "amount": "2 cloves" }
+      ],
+      "instructions": [
+        "Cook pasta until al dente.",
+        "Melt butter and sauté garlic.",
+        "Add cream and parmesan, stir.",
+        "Mix pasta with sauce."
+      ],
+      "dietTags": ["vegetarian"],
+      "nutrition": { "calories": 550, "protein": 15, "carbs": 60, "fat": 28 },
+      "image": "pasta.webp",
+      "rating": 4.4,
+      "saved": false
+    },
+    {
+      "id": "12",
+      "title": "Mushroom Risotto",
+      "cuisine": "Italian",
+      "description": "Creamy Italian rice dish with mushrooms and parmesan",
+      "difficulty": "medium",
+      "time": 35,
+      "servings": 2,
+      "ingredients": [
+        { "name": "arborio rice", "amount": "200 g" },
+        { "name": "mushroom", "amount": "150 g" },
+        { "name": "onion", "amount": "1 pc" },
+        { "name": "vegetable broth", "amount": "600 ml" },
+        { "name": "parmesan", "amount": "50 g" }
+      ],
+      "instructions": [
+        "Sauté onion and mushrooms.",
+        "Add rice and toast lightly.",
+        "Gradually add hot broth, stirring.",
+        "Finish with parmesan."
+      ],
+      "dietTags": ["vegetarian", "gluten_free"],
+      "nutrition": { "calories": 490, "protein": 13, "carbs": 72, "fat": 14 },
+      "image": "Mushroom.webp",
+      "rating": 4.3,
+      "saved": false
+    },
+    {
+      "id": "13",
+      "title": "Tacos",
+      "cuisine": "Mexican",
+      "description": "Traditional Mexican tacos with ground beef and fresh toppings",
+      "difficulty": "easy",
+      "time": 20,
+      "servings": 2,
+      "ingredients": [
+        { "name": "tortillas", "amount": "4 pc" },
+        { "name": "ground beef", "amount": "200 g" },
+        { "name": "onion", "amount": "1 pc" },
+        { "name": "tomato", "amount": "1 pc" },
+        { "name": "cheddar", "amount": "50 g" }
+      ],
+      "instructions": [
+        "Cook beef with onion and spices.",
+        "Fill tortillas with beef, tomato, and cheese."
+      ],
+      "dietTags": [],
+      "nutrition": { "calories": 400, "protein": 18, "carbs": 35, "fat": 16 },
+      "image": "tacos.webp",
+      "rating": 4.2,
+      "saved": false
+    },
+    {
+      "id": "14",
+      "title": "Quesadilla",
+      "cuisine": "Mexican",
+      "description": "Cheesy Mexican folded tortilla with vegetables",
+      "difficulty": "easy",
+      "time": 15,
+      "servings": 2,
+      "ingredients": [
+        { "name": "tortilla", "amount": "2 pc" },
+        { "name": "cheddar", "amount": "100 g" },
+        { "name": "bell pepper", "amount": "1 pc" },
+        { "name": "onion", "amount": "1 pc" }
+      ],
+      "instructions": [
+        "Sauté onion and bell pepper.",
+        "Fill tortilla with cheese and veggies.",
+        "Cook on skillet until cheese melts."
+      ],
+      "dietTags": ["vegetarian"],
+      "nutrition": { "calories": 380, "protein": 14, "carbs": 35, "fat": 16 },
+      "image": "quesadillas.webp",
+      "rating": 4.1,
+      "saved": false
+    },
+    {
+      "id": "15",
+      "title": "Chicken Enchiladas",
+      "cuisine": "Mexican",
+      "description": "Rolled tortillas filled with chicken and covered with sauce",
+      "difficulty": "medium",
+      "time": 35,
+      "servings": 3,
+      "ingredients": [
+        { "name": "tortillas", "amount": "4 pc" },
+        { "name": "chicken", "amount": "200 g" },
+        { "name": "enchilada sauce", "amount": "200 ml" },
+        { "name": "cheddar", "amount": "100 g" }
+      ],
+      "instructions": [
+        "Fill tortillas with shredded chicken and roll.",
+        "Place in dish, pour sauce, and top with cheese.",
+        "Bake until cheese melts."
+      ],
+      "dietTags": [],
+      "nutrition": { "calories": 480, "protein": 22, "carbs": 40, "fat": 20 },
+      "image": "chicken-en.webp",
+      "rating": 4.3,
+      "saved": false
+    },
+    {
+      "id": "16",
+      "title": "Guacamole",
+      "cuisine": "Mexican",
+      "description": "Fresh avocado dip with lime and vegetables",
+      "difficulty": "easy",
+      "time": 10,
+      "servings": 4,
+      "ingredients": [
+        { "name": "avocado", "amount": "2 pc" },
+        { "name": "lime juice", "amount": "1 tbsp" },
+        { "name": "onion", "amount": "0.5 pc" },
+        { "name": "tomato", "amount": "1 pc" },
+        { "name": "cilantro", "amount": "2 tbsp" }
+      ],
+      "instructions": [
+        "Mash avocado with lime juice.",
+        "Fold in onion, tomato, and cilantro.",
+        "Season to taste."
+      ],
+      "dietTags": ["vegan", "gluten_free"],
+      "nutrition": { "calories": 120, "protein": 2, "carbs": 6, "fat": 10 },
+      "image": "guacamole.webp",
+      "rating": 4.0,
+      "saved": false
+    },
+    {
+      "id": "17",
+      "title": "Chilaquiles",
+      "cuisine": "Mexican",
+      "description": "Traditional Mexican breakfast with tortilla chips and salsa",
+      "difficulty": "medium",
+      "time": 25,
+      "servings": 2,
+      "ingredients": [
+        { "name": "corn tortillas", "amount": "6 pc" },
+        { "name": "tomato salsa", "amount": "250 ml" },
+        { "name": "onion", "amount": "0.5 pc" },
+        { "name": "cotija cheese", "amount": "40 g" },
+        { "name": "egg", "amount": "2 pc" }
+      ],
+      "instructions": [
+        "Cut and lightly fry tortilla pieces.",
+        "Simmer in salsa until softened.",
+        "Top with fried eggs and cheese."
+      ],
+      "dietTags": ["gluten_free", "vegetarian"],
+      "nutrition": { "calories": 420, "protein": 16, "carbs": 44, "fat": 20 },
+      "image": "chila.webp",
+      "rating": 4.2,
+      "saved": false
+    },
+    {
+      "id": "18",
+      "title": "Vegetable Fried Rice",
+      "cuisine": "Chinese",
+      "description": "Classic Chinese fried rice with vegetables and egg",
+      "difficulty": "easy",
+      "time": 20,
+      "servings": 2,
+      "ingredients": [
+        { "name": "rice (cooked)", "amount": "300 g" },
+        { "name": "egg", "amount": "2 pc" },
+        { "name": "carrot", "amount": "1 pc" },
+        { "name": "peas", "amount": "60 g" },
+        { "name": "soy sauce", "amount": "1 tbsp" }
+      ],
+      "instructions": [
+        "Scramble eggs and set aside.",
+        "Stir-fry veggies, add rice and soy sauce.",
+        "Fold eggs back in and serve."
+      ],
+      "dietTags": ["vegetarian"],
+      "nutrition": { "calories": 380, "protein": 12, "carbs": 58, "fat": 10 },
+      "image": "fried-rice.webp",
+      "rating": 4.1,
+      "saved": false
+    },
+    {
+      "id": "19",
+      "title": "Kung Pao Chicken",
+      "cuisine": "Chinese",
+      "description": "Spicy Chinese chicken dish with peanuts and vegetables",
+      "difficulty": "medium",
+      "time": 25,
+      "servings": 3,
+      "ingredients": [
+        { "name": "chicken", "amount": "300 g" },
+        { "name": "peanuts", "amount": "40 g" },
+        { "name": "bell pepper", "amount": "1 pc" },
+        { "name": "soy sauce", "amount": "2 tbsp" },
+        { "name": "chili", "amount": "2 pc" }
+      ],
+      "instructions": [
+        "Stir-fry chicken until browned.",
+        "Add veggies and sauce.",
+        "Toss with peanuts and serve."
+      ],
+      "dietTags": [],
+      "nutrition": { "calories": 420, "protein": 28, "carbs": 16, "fat": 24 },
+      "image": "chicken-kung.webp",
+      "rating": 4.3,
+      "saved": false
+    },
+    {
+      "id": "20",
+      "title": "Mapo Tofu",
+      "cuisine": "Chinese",
+      "description": "Spicy Sichuan tofu dish with ground pork",
+      "difficulty": "medium",
+      "time": 20,
+      "servings": 3,
+      "ingredients": [
+        { "name": "tofu", "amount": "400 g" },
+        { "name": "ground pork", "amount": "150 g" },
+        { "name": "doubanjiang", "amount": "1 tbsp" },
+        { "name": "soy sauce", "amount": "1 tbsp" },
+        { "name": "garlic", "amount": "3 cloves" }
+      ],
+      "instructions": [
+        "Brown pork with doubanjiang and garlic.",
+        "Add tofu and simmer with sauce.",
+        "Serve hot with rice."
+      ],
+      "dietTags": [],
+      "nutrition": { "calories": 360, "protein": 20, "carbs": 12, "fat": 26 },
+      "image": "mapo-tofu-sichuan-style.webp",
+      "rating": 4.2,
+      "saved": false
+    },
+    {
+      "id": "21",
+      "title": "Chicken Chow Mein",
+      "cuisine": "Chinese",
+      "description": "Classic Chinese noodle dish with chicken and vegetables",
+      "difficulty": "easy",
+      "time": 25,
+      "servings": 2,
+      "ingredients": [
+        { "name": "egg noodles", "amount": "200 g" },
+        { "name": "chicken", "amount": "250 g" },
+        { "name": "cabbage", "amount": "100 g" },
+        { "name": "soy sauce", "amount": "1 tbsp" },
+        { "name": "sesame oil", "amount": "1 tsp" }
+      ],
+      "instructions": [
+        "Boil noodles and drain.",
+        "Stir-fry chicken and veggies.",
+        "Toss noodles with sauce and serve."
+      ],
+      "dietTags": [],
+      "nutrition": { "calories": 520, "protein": 28, "carbs": 68, "fat": 14 },
+      "image": "chow-mein.webp",
+      "rating": 4.4,
+      "saved": false
+    },
+    {
+      "id": "22",
+      "title": "Sweet and Sour Chicken",
+      "cuisine": "Chinese",
+      "description": "Chinese-style chicken with sweet and sour sauce",
+      "difficulty": "medium",
+      "time": 30,
+      "servings": 3,
+      "ingredients": [
+        { "name": "chicken", "amount": "300 g" },
+        { "name": "pineapple", "amount": "150 g" },
+        { "name": "bell pepper", "amount": "1 pc" },
+        { "name": "vinegar", "amount": "1 tbsp" },
+        { "name": "ketchup", "amount": "2 tbsp" }
+      ],
+      "instructions": [
+        "Stir-fry chicken pieces.",
+        "Add veggies and pineapple.",
+        "Pour in sweet-sour sauce and simmer."
+      ],
+      "dietTags": [],
+      "nutrition": { "calories": 430, "protein": 26, "carbs": 38, "fat": 16 },
+      "image": "Sweet-and-Sour-Chicken-6-720x894.webp",
+      "rating": 4.1,
+      "saved": false
+    },
+    {
+      "id": "23",
+      "title": "Chocolate Cake",
+      "cuisine": "Cake",
+      "description": "Rich and moist chocolate cake",
+      "difficulty": "medium",
+      "time": 45,
+      "servings": 8,
+      "ingredients": [
+        { "name": "all-purpose flour", "amount": "200 g" },
+        { "name": "cocoa powder", "amount": "40 g" },
+        { "name": "sugar", "amount": "180 g" },
+        { "name": "egg", "amount": "2 pc" },
+        { "name": "milk", "amount": "200 ml" }
+      ],
+      "instructions": [
+        "Mix dry ingredients.",
+        "Whisk in eggs and milk to form batter.",
+        "Bake at 180°C for 30–35 mins."
+      ],
+      "dietTags": ["vegetarian"],
+      "nutrition": { "calories": 280, "protein": 5, "carbs": 40, "fat": 10 },
+      "image": "chocolate-cake.webp",
+      "rating": 4.6,
+      "saved": false
+    },
+    {
+      "id": "24",
+      "title": "Vanilla Sponge Cake",
+      "cuisine": "Cake",
+      "description": "Light and fluffy vanilla sponge cake",
+      "difficulty": "medium",
+      "time": 40,
+      "servings": 8,
+      "ingredients": [
+        { "name": "all-purpose flour", "amount": "180 g" },
+        { "name": "sugar", "amount": "150 g" },
+        { "name": "egg", "amount": "3 pc" },
+        { "name": "butter", "amount": "100 g" },
+        { "name": "milk", "amount": "120 ml" }
+      ],
+      "instructions": [
+        "Cream butter and sugar.",
+        "Beat in eggs, then fold in flour and milk.",
+        "Bake at 180°C for 25–30 mins."
+      ],
+      "dietTags": ["vegetarian"],
+      "nutrition": { "calories": 260, "protein": 5, "carbs": 33, "fat": 11 },
+      "image": "vanilla.webp",
+      "rating": 4.4,
+      "saved": false
+    },
+    {
+      "id": "25",
+      "title": "Chocolate Mousse",
+      "cuisine": "Dessert",
+      "description": "Rich and creamy chocolate dessert",
+      "difficulty": "easy",
+      "time": 20,
+      "servings": 4,
+      "ingredients": [
+        { "name": "dark chocolate", "amount": "150 g" },
+        { "name": "cream", "amount": "200 ml" },
+        { "name": "egg", "amount": "2 pc" },
+        { "name": "sugar", "amount": "2 tbsp" }
+      ],
+      "instructions": [
+        "Melt chocolate and cool slightly.",
+        "Whip cream to soft peaks.",
+        "Fold in whipped egg whites and chocolate.",
+        "Chill until set."
+      ],
+      "dietTags": ["vegetarian", "gluten_free"],
+      "nutrition": { "calories": 320, "protein": 6, "carbs": 20, "fat": 24 },
+      "image": "Chocolate+mousse+cake+with+red+fruits1.webp",
+      "rating": 4.5,
+      "saved": false
+    },
+    {
+      "id": "26",
+      "title": "Fruit Salad",
+      "cuisine": "Dessert",
+      "description": "Fresh mixed fruit salad with lime dressing",
+      "difficulty": "easy",
+      "time": 10,
+      "servings": 4,
+      "ingredients": [
+        { "name": "apple", "amount": "1 pc" },
+        { "name": "banana", "amount": "1 pc" },
+        { "name": "grapes", "amount": "100 g" },
+        { "name": "orange", "amount": "1 pc" },
+        { "name": "lime juice", "amount": "1 tbsp" }
+      ],
+      "instructions": [
+        "Chop all fruits evenly.",
+        "Toss with lime juice.",
+        "Serve chilled."
+      ],
+      "dietTags": ["vegan", "gluten_free"],
+      "nutrition": { "calories": 110, "protein": 1, "carbs": 26, "fat": 0 },
+      "image": "fruit.webp",
+      "rating": 4.0,
+      "saved": false
+    }
+  ]
+}

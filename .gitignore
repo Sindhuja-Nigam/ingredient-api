@@ -1,0 +1,13 @@
+# Python virtual environments
+venv/
+env/
+tfjs_env/
+backend/tfjs_env/
+
+# Node.js dependencies
+node_modules/
+
+# Other cache & system files
+__pycache__/
+*.pyc
+.DS_Store
